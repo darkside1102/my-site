@@ -1,0 +1,162 @@
+.header-top {
+	width: 1000px; 
+    margin: auto;
+    padding: auto; 
+}
+
+.header {
+	display: flex;
+	width: 1000px;
+	height: 60px;
+	background-color: #2e2e2e;
+	justify-content: space-between;
+	 
+
+}
+
+.header-btn {
+	display: flex;
+	width: 500px;
+	margin: 0px;
+    padding: 20px;
+
+}
+
+
+.header-btn li {
+	margin-right: 5px;
+	list-style: none;
+}
+
+.header-btn a {
+	font-size: 12px;
+	line-height: 14px;
+	font-family: "Georgia";
+	color: rgb(159,159,159);
+    text-decoration: none;
+}
+
+.header-social-btn {
+	list-style: none;
+	display: flex;
+	margin: 8px 15px;
+	font-size: 0;
+}
+
+.header-social-btn li {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	background-color: #787878;
+	margin: 5px;
+}
+
+.header-social-btn a {
+
+}
+
+.Rss {
+	background: url(../img/icon-rss.png) 10px 8px no-repeat;
+}
+
+.linkedin {
+	background: url(../img/icon-linkedin.png) 8px 8px no-repeat;
+}
+
+.twitter {
+	background: url(../img/icon-twitter.png) 8px 8px no-repeat;
+}
+
+.pinterest {
+	background: url(../img/icon-pinterest.png) 8px 8px no-repeat;
+}
+
+.Google {
+	cursor: pointer;
+	background: url(../img/icon-google-plus.png) 8px 8px no-repeat;
+}
+
+.Google:hover {
+	background-color: red;
+
+}
+
+.header-menu-nav {
+	width: 1000px;
+}
+
+.menu-nav {
+	width: 1000px;
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    margin-left: -40px;
+
+
+}
+
+.menu-nav li {
+	text-transform: uppercase;
+	font-family: "Georgia";
+	margin: 10px;
+	margin-left: -20px;
+
+}
+
+.menu-nav a {
+	text-decoration: none;
+	color: rgb(46,46,46);
+	font-size: 14px;
+	line-height: 14px;
+	border-bottom: 5px solid #f1f1f1;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.menu-nav a:active {
+	color: rgb(159,159,159);
+	border-bottom: 5px solid #0099ff;
+	padding-bottom: 15px; 
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.name-text {
+
+}
+
+.name-text p {
+    font-size: 36px;
+    line-height: 43px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+    margin: 10px 10px;
+
+}
+
+.name-text2 p {
+	font-size: 12px;
+	line-height: 14px;
+	color: rgb(153,153,153);
+	font-family: "Georgia";
+
+}
+
+.search-block {
+
+
+}
+
+.btn-search {
+	width: 215px;
+	height: 31px;
+	border-radius: 7px;
+	background-color: #f1f1f1;
+}
+.btn {
+	width: 68px;
+	height: 31px;
+	border-radius: 7px;
+	background-color: #0099ff;
+	color: white;
+}
