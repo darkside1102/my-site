@@ -83,6 +83,7 @@
 
 .header-menu-nav {
 	width: 1000px;
+    padding: 0px 20px;
 }
 
 .menu-nav {
@@ -121,30 +122,28 @@
 	margin-left: 10px;
 }
 
-.name-text {
-
+.text-block {
+	display: flex;
+	justify-content: space-between;
 }
 
-.name-text p {
-    font-size: 36px;
+.text {
+	font-size: 36px;
     line-height: 43px;
     color: rgb(51,51,51);
     font-family: "Georgia";
-    margin: 10px 10px;
+    margin: 0 20px;
 
 }
-
-.name-text2 p {
+.nobody {
+	font-size: 36px;
+	line-height: 43px;
+	color: rgb(51,51,51);
+}
+.psd {
 	font-size: 12px;
 	line-height: 14px;
 	color: rgb(153,153,153);
-	font-family: "Georgia";
-
-}
-
-.search-block {
-
-
 }
 
 .btn-search {
@@ -152,11 +151,71 @@
 	height: 31px;
 	border-radius: 7px;
 	background-color: #f1f1f1;
+	margin-top: 70px;
+	outline: none;
 }
+
 .btn {
 	width: 68px;
-	height: 31px;
+	height: 37px;
 	border-radius: 7px;
 	background-color: #0099ff;
 	color: white;
+	outline: none;
+}
+
+.descriptive {
+	width: 1000px;
+	height: 450px;
+	background-color: #f1f1f1;
+}
+
+.text-descriptive {
+	width: 380px;
+	height: 83px;
+	font-size: 36px;
+	line-height: 36px;
+	color: rgb(51,51,51);
+	padding: 120px 20px;
+	font-family: "Georgia";
+}
+
+.small-text-descriptive {
+	width: 376px;
+	height: 79px;
+	font-size: 16px;
+	line-height: 22px;
+	color: rgb(102,102,102);
+	padding: 20px;
+    margin-top: -170px;
+    font-family: "Georgia";
+}
+
+.btn-read {
+    margin: -30px 0;
+}
+
+.big-box {
+	background-image: url(../img/Rectangle.PNG);
+}
+
+
+.block-image {
+
+
+}
+
+.btn-read input {
+	width: 126px;
+	height: 31px;
+	border-radius: 7px;
+	background-color: #0099ff;
+	font-size: 16px;
+	outline: none;
+	font-size: 16px;
+	line-height: 16px;
+	color: rgb(255,255,255);
+	font-family: "Georgia";
+	text-align: right;
+	margin: 0 20px;
 }
