@@ -1,4 +1,9 @@
-.header-top {
+* { 
+	margin:0; 
+	padding: 0;  
+}
+
+.main-container {
 	width: 1000px; 
     margin: auto;
     padding: auto; 
@@ -6,8 +11,6 @@
 
 .header {
 	display: flex;
-	width: 1000px;
-	height: 60px;
 	background-color: #2e2e2e;
 	justify-content: space-between;
 	 
@@ -16,16 +19,15 @@
 
 .header-btn {
 	display: flex;
-	width: 500px;
 	margin: 0px;
     padding: 20px;
 
 }
 
-
 .header-btn li {
 	margin-right: 5px;
 	list-style: none;
+	
 }
 
 .header-btn a {
@@ -34,7 +36,14 @@
 	font-family: "Georgia";
 	color: rgb(159,159,159);
     text-decoration: none;
+    border-right: 1px solid rgb(159,159,159);
+    padding-right: 5px;
 }
+
+.header-btn li:last-child a {
+	border: none;
+}
+
 
 .header-social-btn {
 	list-style: none;
@@ -55,35 +64,54 @@
 
 }
 
-.Rss {
-	background: url(../img/icon-rss.png) 10px 8px no-repeat;
-}
-
 .linkedin {
+	cursor: pointer;
 	background: url(../img/icon-linkedin.png) 8px 8px no-repeat;
 }
 
+.linkedin:hover {
+	background-color: #0e76a8;
+}
+
 .twitter {
+	cursor: pointer;
 	background: url(../img/icon-twitter.png) 8px 8px no-repeat;
 }
 
+.twitter:hover {
+	background-color: #00acee;
+}
+
 .pinterest {
+	cursor: pointer;
 	background: url(../img/icon-pinterest.png) 8px 8px no-repeat;
 }
 
-.Google {
+.pinterest:hover {
+	background-color: #c8232c;
+}
+
+.google {
 	cursor: pointer;
 	background: url(../img/icon-google-plus.png) 8px 8px no-repeat;
 }
 
-.Google:hover {
-	background-color: red;
+.google:hover {
+	background-color: #db4a39;
 
+}
+
+.rss {
+	cursor: pointer;
+	background: url(../img/icon-rss.png) 10px 8px no-repeat;
+}
+.rss:hover {
+	background-color: #ee802f;
 }
 
 .header-menu-nav {
 	width: 1000px;
-    padding: 0px 20px;
+    padding: 0px 60px;
 }
 
 .menu-nav {
@@ -132,7 +160,7 @@
     line-height: 43px;
     color: rgb(51,51,51);
     font-family: "Georgia";
-    margin: 0 20px;
+    margin: 20px 20px;
 
 }
 .nobody {
@@ -144,6 +172,7 @@
 	font-size: 12px;
 	line-height: 14px;
 	color: rgb(153,153,153);
+	margin: 10px 0;
 }
 
 .btn-search {
@@ -151,7 +180,7 @@
 	height: 31px;
 	border-radius: 7px;
 	background-color: #f1f1f1;
-	margin-top: 70px;
+	margin-top: 50px;
 	outline: none;
 }
 
@@ -199,9 +228,7 @@
 	background-image: url(../img/Rectangle.PNG);
 }
 
-
 .block-image {
-
 
 }
 
